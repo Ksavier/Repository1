@@ -1,0 +1,35 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css?family=Galindo|Lily+Script+One');
+
+
+body {
+  background-color: rgba(31, 255, 255, 0.99);
+  font-family:  'Audiowide', cursive;
+  font-size: 20px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family:  'Audiowide', cursive;
+  font-size: 32px;
+}
+header {
+  font-family:  'Audiowide', cursive;
+  font-size:  'Audiowide';
+  font-weight: bold;
+  border: 20px dotted rgb(0, 0, 0);
+}
+footer{
+ font-size:15px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+    
+  position: fixed;
+  width: 100%;
+  bottom:0%;
+}
+  

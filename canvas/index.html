@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    </h1>
+    
+    
+    <canvas width="500" height="500"></canvas>
+    
+    <script>
+    var vas = document.querySelector("canvas");
+      var ctx = vas.getContext( '2d' );
+      var size = 50;
+      var offset = 20;
+      ctx.fillStyle = 'rgba(0, 255, 0, 0.8)';
+      ctx.fillRect(10,10,150,150);
+
+      for (var i = 0; i < 10; i = i + 1) {
+        var b = i * 25;
+        var rgba = "rgba(0, 0, " + b + ", 0.5)";
+        c.fillStyle = rgba;
+        c.fillRect(offset, offset, size, size);
+        offset = offset + 20;
+      }
+
+    </script>
+    
+    
+  </body>
+</html>

@@ -1,0 +1,7 @@
+canvas{
+  border:dashed 5px;
+  border-bottom-color: aqua;
+  border-left-color:chartreuse;
+  border-right-color: yellow;
+  border-top-color:red;     
+}
