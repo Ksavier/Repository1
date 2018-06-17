@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLICKER</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+      let pointz=0;
+      
+      function point(){
+        
+        if ((pointz >49)&&(pointz<200))
+        {pointz = pointz + 5 }
+        else
+        {
+          if (pointz < 50)
+          {pointz = pointz + 1 }
+          else
+          {pointz = pointz + 10 }
+        }
+        
+        
+        document.getElementById("clicks").innerHTML='Score: '+pointz;
+      }
+ 
+
+    </script>
+    
+    
+  </head>
+  <body>
+  
+    <p id="clicks" style="display"> Score: 0 </p>
+
+    
+    <img onclick="point()" class="wolf" src="https://freeclipartimage.com//storage/upload/wolf-clip-art/wolf-clip-art-29.png"
+         alt="wolf">
+
+ 
+
+  </body>
+</html>
